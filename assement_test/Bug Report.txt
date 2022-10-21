@@ -1,0 +1,20 @@
+Name: Carson Wardell	Date: 10/21/2022
+Bug Report
+Automated scenerios:
+	1.Create account,
+	2.Log in and password valid information and log out
+	3.Add 2 items in the shopping cart, 
+	4.Create account Enter all the details in the page (First Name/ Last Name etc). Click on cancel
+	5.Delete 2 items from the shopping cart
+	6.How many items on the shopping cart
+	7.Add2/delete 1 item in the shopping cart instead of 2.
+
+Possible Bugs from automation scenarios:
+	When running tests repeatedly, test case 4 will on occasion fail to add one of the phones to the cart.
+	
+
+
+Other issues: 
+Lack of names and ids throughout website make extracting elements for automated testing difficult.
+Repeated "article" id in <p> tag Throughout catalog within product cards.
+
